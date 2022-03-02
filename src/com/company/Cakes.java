@@ -48,7 +48,7 @@ public class Cakes extends BakedGoods{
     @Override
     void Print() {
         super.Print();
-        System.out.println("This cake is the following" + noOfLayers + '\n' + cakeSize + '\n' +cakeFlavor
+        System.out.println("This cake is the following: \n" + noOfLayers + " layer " + cakeSize + '\n' +cakeFlavor
                 + '\n' +fillingFlavor + '\n' +frostingType + '\n' + price);
     }
 }

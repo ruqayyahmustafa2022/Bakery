@@ -2,18 +2,17 @@ package com.company;
 
 public class People {
     private String title; // customer or cashier
-    private String name;
 
-    public String getName() {
-        return name;
-    }
 
     public String getTitle() {
         return title;
     }
 
-    public People (String title, String name) {
+    public People (String title) {
         this.title = title;
-        this.name = name;
+    }
+
+    void Print() {
+        System.out.println(title);
     }
 }

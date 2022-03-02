@@ -26,6 +26,6 @@ public class Cookies extends BakedGoods{
     @Override
     void Print() {
         super.Print();
-        System.out.println("This cookie is the following" + numOfCookies + '\n' + flavors + '\n' + +'\n' + price);
+        System.out.println("This cookie is the following \n" + flavors + "\n" + price);
     }
 }
