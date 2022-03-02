@@ -164,12 +164,13 @@ public class Main {
                 if (choice == 4) {
                     break;
                 }//end choice 4
-            }
-            else {
+            } else {
                 break;
             }
         } while (exitMenu);  //end do while
         System.out.println("Your total is: " + totalPrice);
-
+        Transaction registerTotal = new Transaction();
+        registerTotal.setAmtInRegister(100.00);
+System.out.println("The amount in register is: )" + (registerTotal.getAmtInRegister() + totalPrice);
     }//end main
 }
