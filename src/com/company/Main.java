@@ -171,6 +171,6 @@ public class Main {
         System.out.println("Your total is: " + totalPrice);
         Transaction registerTotal = new Transaction();
         registerTotal.setAmtInRegister(100.00);
-System.out.println("The amount in register is: )" + (registerTotal.getAmtInRegister() + totalPrice);
+System.out.println("The amount in register is: )" + (registerTotal.getAmtInRegister() + totalPrice));
     }//end main
 }
