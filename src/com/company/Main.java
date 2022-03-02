@@ -60,18 +60,18 @@ public class Main {
                 if (choice == 1) {
                     double price = cakeOptions.get(0).getPrice();
                     totalPrice = totalPrice + price;
-                    receipt.CalculatePurchase(price, 3);
+                    receipt.CalculatePurchase(price, 1);
                 }//end choice 1
                 if (choice == 2) {
                     double price = cakeOptions.get(1).getPrice();
                     totalPrice = totalPrice + price;
-                    receipt.CalculatePurchase(price, 4);
+                    receipt.CalculatePurchase(price, 1);
 
                 }//end choice 2
                 if (choice == 3) {
                     double price = cakeOptions.get(2).getPrice();
                     totalPrice = totalPrice + price;
-                    System.out.println(receipt.CalculatePurchase(price, 5));
+                    System.out.println(receipt.CalculatePurchase(price, 1));
                 }//end choice 3
                 if (choice == 4) {
                     break;
@@ -90,18 +90,18 @@ public class Main {
                 if (cookieChoice == 1) {
                     double price = cookieOptions.get(0).getPrice();
                     totalPrice = totalPrice + price;
-                    receipt.CalculatePurchase(price, 3);
+                    receipt.CalculatePurchase(price, 1);
                 }//end choice 1
                 if (cookieChoice == 2) {
                     double price = cookieOptions.get(1).getPrice();
                     totalPrice = totalPrice + price;
-                    receipt.CalculatePurchase(price, 4);
+                    receipt.CalculatePurchase(price, 1);
 
                 }//end choice 2
                 if (cookieChoice == 3) {
                     double price = cookieOptions.get(2).getPrice();
                     totalPrice = totalPrice + price;
-                    System.out.println(receipt.CalculatePurchase(price, 5));
+                    System.out.println(receipt.CalculatePurchase(price, 1));
                 }//end choice 3
                 if (cookieChoice == 4) {
                     break;
@@ -119,18 +119,18 @@ public class Main {
                 if (cupcakeChoice == 1) {
                     double price = cupcakeOptions.get(0).getPrice();
                     totalPrice = totalPrice + price;
-                    receipt.CalculatePurchase(price, 3);
+                    receipt.CalculatePurchase(price, 1);
                 }//end choice 1
                 if (cupcakeChoice == 2) {
                     double price = cupcakeOptions.get(1).getPrice();
                     totalPrice = totalPrice + price;
-                    receipt.CalculatePurchase(price, 4);
+                    receipt.CalculatePurchase(price, 1);
 
                 }//end choice 2
                 if (cupcakeChoice == 3) {
                     double price = cupcakeOptions.get(2).getPrice();
                     totalPrice = totalPrice + price;
-                    System.out.println(receipt.CalculatePurchase(price, 5));
+                    System.out.println(receipt.CalculatePurchase(price, 1));
                 }//end choice 3
                 if (cupcakeChoice == 4) {
                     break;
@@ -148,18 +148,18 @@ public class Main {
                 if (choice == 1) {
                     double price = macaroonsOptions.get(0).getPrice();
                     totalPrice = totalPrice + price;
-                    receipt.CalculatePurchase(price, 3);
+                    receipt.CalculatePurchase(price, 1);
                 }//end choice 1
                 if (choice == 2) {
                     double price = macaroonsOptions.get(1).getPrice();
                     totalPrice = totalPrice + price;
-                    receipt.CalculatePurchase(price, 4);
+                    receipt.CalculatePurchase(price, 1);
 
                 }//end choice 2
                 if (choice == 3) {
                     double price = macaroonsOptions.get(2).getPrice();
                     totalPrice = totalPrice + price;
-                    System.out.println(receipt.CalculatePurchase(price, 5));
+                    System.out.println(receipt.CalculatePurchase(price, 1));
                 }//end choice 3
                 if (choice == 4) {
                     break;
