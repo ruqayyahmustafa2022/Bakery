@@ -46,7 +46,7 @@ public class Main {
         double totalPrice = 0;
 
         do {
-            System.out.println("Please choose an option to purchase: Cakes[1], Cookies[2], Macaroons[3], Cupcakes[4], Exit Buy Nothing [5]");
+            System.out.println("Please choose an option to purchase: Cakes[1], Cookies[2], Macaroons[3], Cupcakes[4], Exit [5]");
             int userInput = myScanner.nextInt();
 
             //Cakes
