@@ -22,11 +22,13 @@ public class Macaroons extends BakedGoods {
         return price;
     }
 
-    public Macaroons(int numOfMacaroons, String flavors, double price, boolean freshDaily, boolean isGlutenFree) {
+
+    public Macaroons(int numOfMacaroons, String flavors, double price, boolean freshDaily, boolean isGlutenFree, String color) {
         super(freshDaily, isGlutenFree);
         this.numOfMacaroons = numOfMacaroons;
         this.flavors = flavors;
         this.price = price;
+        this.color = color;
     }
 
     @Override

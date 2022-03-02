@@ -4,6 +4,7 @@ public class People {
     private String title; // customer or cashier
 
 
+
     public String getTitle() {
         return title;
     }

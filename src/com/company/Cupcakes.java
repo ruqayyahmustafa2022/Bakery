@@ -3,7 +3,7 @@ package com.company;
 public class Cupcakes extends BakedGoods{
     private int numOfCupcakes;
     private String flavors;
-    private int price;
+    private double price;
 
     public int getNumOfCupcakes() {
         return numOfCupcakes;
@@ -13,11 +13,11 @@ public class Cupcakes extends BakedGoods{
         return flavors;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public Cupcakes (int numOfCupcakes, String flavors, int price, boolean freshDaily, boolean isGlutenFree) {
+    public Cupcakes (int numOfCupcakes, String flavors, double price, boolean freshDaily, boolean isGlutenFree) {
         super(freshDaily, isGlutenFree);
         this.numOfCupcakes = numOfCupcakes;
         this.flavors = flavors;

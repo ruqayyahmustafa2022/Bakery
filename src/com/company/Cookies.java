@@ -9,11 +9,11 @@ public class Cookies extends BakedGoods{
         return numOfCookies;
     }
 
-    public String flavors() {
+    public String getFlavors() {
         return flavors;
     }
 
-    public double price() {
+    public double getPrice() {
         return price;
     }
     public Cookies(int numOfCookies, String flavors, double price, boolean freshDaily, boolean isGlutenFree){
